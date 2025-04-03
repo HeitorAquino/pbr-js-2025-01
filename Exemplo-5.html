@@ -27,7 +27,18 @@
         }
         
         .titulo {
-            font-size: ;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        .descricao{
+            font-size: 0.8rem;
+        }
+
+        .preco{
+            font-size: 1.5rem;
+            font-weight: bolder;
+            text-align: center;
         }
     </style>
 </head>
@@ -42,10 +53,10 @@
            var produto = prompt("Informe o nome do produto:");
            var descricao = prompt("Informe a descrição do produto:");
            var preco = prompt("Informe o preço do produto:");
-           document.write(`<img src="" alt="logo de supermercado">`);
+           document.write(`<img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Iq2cRhqKS-73cfkwEcYhoASfM6qwFtCPaQ&s" alt="logo de supermercado">`);
            document.write(`<h1 class="titulo"> ${produto}</h1>`);
            document.write(`<article class="descricao"> ${produdescricaoto}</article>`);
-           document.write(`<aside class="preco"> ${preco}</aside>`);
+           document.write(`<aside class="preco">R$ ${preco}</aside>`);
         </script>
     </div>
 </body>
